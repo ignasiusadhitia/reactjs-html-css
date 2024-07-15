@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        display: flex;
+        /* Menyusun elemen anak secara horizontal */
+        flex-direction: row;
+        /* Menyusun elemen anak di tengah secara horizontal */
+        justify-content: center;
+        /* Menyusun elemen anak di tengah secara vertikal */
+        align-items: center;
+        /* Membungkus susunan elemen */
+        flex-wrap: wrap;
+        /* Membuat kontainer setinggi viewport */
+        height: 50vh; 
+        width: 80vh;
+        border: 2px solid black;
+      }
+
+      .item {
+        background-color: lightblue;
+        padding: 20px;
+        margin: 10px;
+        border: 1px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 4</div>
+      <div class="item">Item 5</div>
+      <div class="item">Item 6</div>
+      <div class="item">Item 7</div>
+      <div class="item">Item 8</div>
+      <div class="item">Item 9</div>
+    </div>
+  </body>
+</html>

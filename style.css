@@ -1,0 +1,12 @@
+.text:hover {
+    font-weight: bold;
+}
+.text:active {
+    font-weight: bold;
+}
+.input:focus {
+    font-weight: bold;
+}
+.list:nth-child(2) {
+    font-weight: bold;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .static-box {
+        position: static;
+        background-color: lightblue;
+        width: 100px;
+        height: 100px;
+      }
+
+      .relative-box {
+        position: relative;
+        background-color: lightgreen;
+        width: 100px;
+        height: 100px;
+        top: 20px;
+        left: 20px;
+      }
+
+      .absolute-box {
+        position: absolute;
+        background-color: coral;
+        width: 100px;
+        height: 100px;
+        top: 10px;
+        left: 10px;
+      }
+
+      .fixed-box {
+        position: fixed;
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        bottom: 8%;
+        right: 5%;
+      }
+
+      .sticky-box {
+        position: sticky;
+        background-color: pink;
+        width: 100px;
+        height: 100px;
+        top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="height: 250vh">
+      <!-- <div class="static-box">Static</div> -->
+      <!-- <div class="relative-box">Relative</div> -->
+      <!-- <div class="relative-box" style="border: 1px solid red"> -->
+        <!-- <div class="absolute-box">Absolute</div> -->
+      <!-- </div> -->
+      <!-- <div class="fixed-box">Fixed</div> -->
+      <!-- <div class="sticky-box">Sticky</div> -->
+      <p>Scroll down to see the sticky element in action.</p>
+    </div>
+  </body>
+</html>
